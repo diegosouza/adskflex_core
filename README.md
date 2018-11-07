@@ -5,7 +5,7 @@ The options file takes several options. To deal with them easily, you may use th
 
 # How?
 
-```
+``` csharp
 try
 {
     var lines = AutoCadFile.GetLines(fileContent);
