@@ -4,3 +4,4 @@ dotnet: 2.1.403
 solution: adskflex_core.sln
 script:
   - dotnet build
+  - dotnet test ADSKFlexCoreTests

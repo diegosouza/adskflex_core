@@ -1,9 +1,13 @@
-# Why?
+# ADSK Flex (.NET Core)
+
+[![Build Status](https://travis-ci.org/diegosouza/adskflex_core.svg?branch=master)](https://travis-ci.org/diegosouza/adskflex_core)
+
+## Why?
 
 To manage programmatically AutoCAD's licenses you have to deal with the `adskflex.opt` file.
 The options file takes several options. To deal with them easily, you may use this library.
 
-# How?
+## How?
 
 ``` csharp
 try
@@ -20,6 +24,6 @@ catch (InvalidAutoCadOption ex)
 }
 ```
 
-# Tests
+## Tests
 
 `dotnet test ADSKFlexCoreTests`
